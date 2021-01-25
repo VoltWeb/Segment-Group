@@ -1,0 +1,55 @@
+{
+  "name": "gulp-bootstrap-4",
+  "version": "2.0.0",
+  "description": "Assembly Frontend Projects",
+  "main": "gulpfile.js",
+  "private": true,
+  "data": "16.11.2019",
+  "author": {
+    "name": "VoltWebs",
+    "email": "info@voltwebs.ru",
+    "url": "https://voltwebs.ru"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://voltwebs@bitbucket.org/voltwebs/gulp-bootstrap-4.git"
+  },
+  "homepage": "https://voltwebs@bitbucket.org/voltwebs/gulp-bootstrap-4",
+  "engines": {
+    "node": ">=10.13.0",
+    "npm": ">=6.4.1"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "start": "npm run build && gulp server"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 9"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-csscomb": "^3.1.0",
+    "gulp-csslint": "^1.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-htmlhint": "^2.2.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0"
+  }
+}
