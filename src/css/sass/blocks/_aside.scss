@@ -1,0 +1,148 @@
+.aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+  z-index: 9999;
+  a {
+    color: $white;
+  }
+}
+
+.aside__logo-wrap {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.aside__logo-pic {
+
+}
+
+.aside__logo-img {
+  margin-left: 5px;
+}
+
+.aside__wrap {
+  position: relative;
+  background: #1e1e1e;
+  height: 100vh;
+}
+
+.aside__nav {
+  margin-bottom: 247px;
+  padding: 49px 30px;
+}
+
+.aside__nav-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.aside__nav-item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.aside__nav-link {
+  font-family: $Idealist;
+  font-size: 16px;
+  text-transform: $up;
+}
+
+.aside__nav-child {
+  display: none;
+  list-style: none;
+  padding-left: 15px;
+  &_service {
+    display: block;
+  }
+}
+
+.aside__nav-child-item {
+
+}
+
+.aside__nav-child-link {
+  font-family: $Idealist;
+  font-size: 16px;
+  text-transform: $up;
+}
+
+.aside__contacts {
+  position: absolute;
+  left: 0;
+  bottom: 156px;
+  padding: 6px 0;
+  border-top: 2px solid $white;
+  text-align: center;
+}
+
+.aside__contacts-phone {
+  padding-left: 15px;
+  text-align: left;
+}
+
+.aside__contacts-link {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: $w300;
+  &:first-child {
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      width: 74px;
+      height: 1px;
+      background: $white;
+    }
+  }
+  &:nth-child(2) {
+    margin-bottom: 16px;
+  }
+}
+
+.aside__contacts-city {
+  margin-left: 12px;
+  font-size: 13px;
+}
+
+.aside__mail {
+  margin-bottom: 20px;
+  .aside__contacts-link {
+    font-size: 14px;
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.aside__callback {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 5px 13px;
+  font-size: 14px;
+  color: $white;
+  background: transparent;
+  border: 1px solid $white;
+  border-radius: 6px;
+}
+
+.aside__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.aside__social-link:not(:last-child) {
+  margin-right: 22px;
+}
+
+.aside__social-icon {
+  width: 20px;
+  height: 20px;
+}
