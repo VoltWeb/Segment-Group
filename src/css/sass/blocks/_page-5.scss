@@ -1,0 +1,63 @@
+.page-5 {
+
+}
+
+.page-5__wrap {
+  padding-top: 65px;
+  text-align: center;
+}
+
+.page-5__title {
+  margin-left: 316px;
+  margin-bottom: 59px;
+}
+
+.page-5__block {
+  display: flex;
+  margin-left: 190px;
+}
+
+.page-5__item:not(:last-child) {
+  margin-right: 80px;
+}
+
+.page-5__item-title {
+  margin-bottom: 38px;
+  font-size: 25px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.page-5__bold {
+  margin-left: 182px;
+  font-weight: $w500;
+  color: #414141;
+}
+
+.page-5__pic {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.page-5__map {
+
+}
+
+.page-5__contact {
+  padding-left: 28px;
+  font-size: 14px;
+  font-weight: $w300;
+  text-align: left;
+}
+
+.page-5__contact-item {
+  margin-bottom: 8px;
+  span {
+    font-weight: $w500;
+  }
+  a {
+    color: $black;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
