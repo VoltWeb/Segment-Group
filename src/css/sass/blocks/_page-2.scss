@@ -1,30 +1,23 @@
 .page-2__wrap {
-  padding-top: 100px;
-  align-items: center;
+  padding-top: 65px;
   padding-left: 230px;
+  text-align: center;
 }
 
 .page-2__title {
-  position: relative;
+  margin-left: 68px;
   font-size: 65px;
   text-transform: $up;
-  font-weight: 500;
+  font-weight: $w400;
   text-align: center;
   margin-bottom: 70px;
-  &:after {
-    content: url("../img/icons/i-logo-title.svg");
-    position: absolute;
-    top: 10px;
-    left: -51px;
-    z-index: -1;
-  }
 }
 
 .page-2__service {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
 }
 
 .service__item {
@@ -32,30 +25,83 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 463px;
-  height: 463px;
+  width: 574px;
+  height: 675px;
+  font-size: 55px;
+  color: $black;
+  border: 1px solid #8e8e8e;
+  border-radius: 20px;
+  &:first-child {
+    margin-right: 30px;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  &_expert {
+    &:after {
+      content: url('../img/icons/i-service-1.svg');
+    }
+  }
+  &_project {
+    &:after {
+      content: url('../img/icons/i-service-2.svg');
+    }
+  }
+  &:hover {
+    color: $white;
+    font-weight: $w700;
+    /*background: #B2D1AE;*/
+    text-decoration: none;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: #B2D1AE;
+      z-index: -1;
+      border-radius: 20px;
+    }
+    &_expert {
+      &:after {
+        content: url('../img/icons/i-service-1-hover.svg');
+      }
+    }
+  }
 }
 
 .service__item-icon {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   width: 463px;
   height: 463px;
   opacity: 0.05;
   z-index: -1;
+  transform: translate(-50%,-50%);
 }
 
 .service__item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 55px;
   color: $black;
   &:hover {
-    color: $black;
+    color: $white;
     text-decoration: none;
     font-weight: 700;
+    background: #b2d1ae;
     .service__item-icon {
       color: $green;
-      opacity: 0.15;
+      opacity: 0.5;
     }
   }
 }

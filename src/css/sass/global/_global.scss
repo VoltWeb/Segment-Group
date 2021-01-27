@@ -37,3 +37,16 @@ svg {
 .bold {
   font-weight: 700;
 }
+
+.title-logo {
+  position: relative;
+  display: inline-block;
+  /*background: url("../img/icons/i-logo-title.svg") no-repeat 394px 14px;*/
+  &:before {
+    content: url("../img/icons/i-logo-title.svg");
+    position: absolute;
+    top: 12px;
+    left: -48px;
+    z-index: -1;
+  }
+}
