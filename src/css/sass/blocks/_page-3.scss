@@ -46,3 +46,9 @@
   left: 250px;
   bottom: 47px;
 }
+
+@media (min-width: 1200px) and (max-width: 1368px) {
+  .page-3__block {
+    margin-left: 250px;
+  }
+}

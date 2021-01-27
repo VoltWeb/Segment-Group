@@ -63,3 +63,15 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 1200px) and (max-width: 1368px) {
+  .page-5__title {
+    margin-bottom: 10px;
+  }
+  .page-5__block {
+    margin-left: 210px;
+  }
+  .page-5__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}

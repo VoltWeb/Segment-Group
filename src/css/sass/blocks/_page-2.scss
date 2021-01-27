@@ -12,7 +12,6 @@
 .page-2__service {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -93,7 +92,10 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1368px) {
-  .page_1-more-wrap {
-    margin-left: 180px;
+  .page-2__service {
+    padding: 0 15px;
+  }
+  .service__item {
+    height: 500px;
   }
 }
