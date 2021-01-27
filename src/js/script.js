@@ -13,9 +13,10 @@ jQuery(document).ready(function($) {
 });
 
 docSlider.init({
-  beforeChange : function(index){
-    var indexPage = index;
-    if(indexPage == 0) {
+  beforeChange : function(pager) {
+    var indexPage = pager;
+    console.log(pager);
+    if(pager == 0) {
       $('.aside__nav-child').addClass('aside__nav-child_service');
       $('.aside__nav-link--active').css('text-decoration','underline');
     }
@@ -28,9 +29,8 @@ docSlider.init({
   startSpeed : null,
   easing : 'ease',
   scrollReset : false,
-  pager: false
+  pager: true
 });
-
 
 /*docSlider.init({
   beforeChange : function(page){
