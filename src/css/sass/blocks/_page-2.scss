@@ -5,8 +5,8 @@
 }
 
 .page-2__title {
-  margin-left: 68px;
-  margin-bottom: 70px;
+  margin-left: 51px;
+  margin-bottom: 43px;
 }
 
 .page-2__service {
@@ -38,21 +38,11 @@
     transform: translate(-50%, -50%);
     z-index: -1;
   }
-  &_expert {
-    &:after {
-      content: url('../img/icons/i-service-1.svg');
-    }
-  }
-  &_project {
-    &:after {
-      content: url('../img/icons/i-service-2.svg');
-    }
-  }
   &:hover {
     color: $white;
     font-weight: $w700;
-    /*background: #B2D1AE;*/
     text-decoration: none;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.25);
     &:before {
       content: "";
       position: absolute;
@@ -65,12 +55,12 @@
       z-index: -1;
       border-radius: 20px;
     }
-    &_expert {
-      &:after {
-        content: url('../img/icons/i-service-1-hover.svg');
-      }
+    .service__item-icon {
+      color: #428A35;
+      opacity: 0.5;
     }
   }
+
 }
 
 .service__item-icon {
