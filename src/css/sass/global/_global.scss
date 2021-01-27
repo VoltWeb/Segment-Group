@@ -28,6 +28,9 @@ svg {
 }
 
 .page-address {
+  position: absolute;
+  left: 250px;
+  bottom: 47px;
   display: block;
   font-family: $Idealist;
   font-size: 14px;
@@ -41,6 +44,10 @@ svg {
 .title-logo {
   position: relative;
   display: inline-block;
+  font-size: 65px;
+  text-transform: $up;
+  font-weight: $w400;
+  text-align: center;
   /*background: url("../img/icons/i-logo-title.svg") no-repeat 394px 14px;*/
   &:before {
     content: url("../img/icons/i-logo-title.svg");

@@ -1,0 +1,47 @@
+.page-3 {
+  position: relative;
+  .page_1__more {
+
+  }
+}
+
+.page-3__wrap {
+  padding-top: 65px;
+  text-align: center;
+}
+
+.page-3__title {
+  margin-bottom: 66px;
+  margin-left: 280px;
+  color: #414141;
+}
+
+.page-3__block {
+  max-width: 990px;
+  margin-left: 170px;
+  margin-bottom: 94px;
+  text-align: left;
+}
+
+.page-3__link-block {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: $w500;
+  color: $black;
+  border-bottom: 1px solid #C4C4C4;
+  &:hover {
+    color: $green;
+    text-decoration: none;
+  }
+}
+
+.page-3__text {
+  font-size: 20px;
+}
+
+.page_3__address {
+  position: absolute;
+  left: 250px;
+  bottom: 47px;
+}
