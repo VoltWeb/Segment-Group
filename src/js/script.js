@@ -28,7 +28,7 @@ docSlider.init({
   startSpeed : null,
   easing : 'ease',
   scrollReset : false,
-  pager: true
+  pager: false
 });
 
 

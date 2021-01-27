@@ -113,12 +113,13 @@
   display: inline-block;
   margin-bottom: 33px;
   font-size: 14px;
+  font-weight: $w300;
 }
 
 .aside__callback {
   display: inline-block;
   margin-bottom: 20px;
-  padding: 5px 16px;
+  padding: 5px 12px;
   font-size: 14px;
   color: $white;
   background: transparent;

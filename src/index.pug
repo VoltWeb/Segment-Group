@@ -4,25 +4,8 @@ html(lang="ru")
     include pug/head
   body
     include pug/aside
-    div(class="docSlider")
-      section(class="screen-1", id="one")
-        div(class="screen-1__wrap")
-          h1(class="screen-1__title") Segment Group
-          p(class="screen-1__descr") Segment Group - компания, занимающаяся разработкой проектной документации и проведением негосударственной экспертизы проектной документации и результатов инженерных изысканий.
-          p(class="screen-1__descr") Наша команда работает на всей территории России, включая регионы с вечной мерзлотой, высокой сейсмической активностью и другими экстремальными условиями.
-          div(class="screen_1-more-wrap")
-            a(class="screen-1__more", href="#") Узнать подробнее
-            span(class="address") г. Москва, ул Смоленская, д.3
-      section(class="screen-2", id="two")
-        div(class="screen-2__wrap screen-1__wrap")
-          h2(class="screen-2__title") Услуги
-          div(class="screen-2__service")
-            div(class="service__item")
-              a(class="service__item-link", href="#") Экспертиза
-                svg(class="service__item-icon")
-                  use(xlink:href="img/icons.svg#i-service-1")
-            div(class="service__item")
-              a(class="service__item-link", href="#") Проектирование
-                svg(class="service__item-icon")
-                  use(xlink:href="img/icons.svg#i-service-2")
+    main(class="main")
+      div(class="docSlider")
+        include pug/page-1
+        include pug/page-2
     include pug/script

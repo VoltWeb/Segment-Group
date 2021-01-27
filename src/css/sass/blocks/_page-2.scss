@@ -1,10 +1,10 @@
-.screen-2__wrap {
+.page-2__wrap {
   padding-top: 100px;
   align-items: center;
   padding-left: 230px;
 }
 
-.screen-2__title {
+.page-2__title {
   position: relative;
   font-size: 65px;
   text-transform: $up;
@@ -20,7 +20,7 @@
   }
 }
 
-.screen-2__service {
+.page-2__service {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -61,7 +61,7 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1368px) {
-  .screen_1-more-wrap {
+  .page_1-more-wrap {
     margin-left: 180px;
   }
 }

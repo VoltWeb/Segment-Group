@@ -18,9 +18,22 @@ svg {
   fill: currentColor;
 }
 
-.address {
+.main {
+
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto 0;
+}
+
+.page-address {
   display: block;
   font-family: $Idealist;
   font-size: 14px;
   font-weight: $w300;
+}
+
+.bold {
+  font-weight: 700;
 }
