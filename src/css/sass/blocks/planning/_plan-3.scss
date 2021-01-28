@@ -113,10 +113,11 @@
   background: $white;
   border-radius: 5px;
   box-shadow: 1px 4px 33px rgba(0,0,0,0.25);
+  text-align: left;
 }
 
 .plan-3__tooltip-title {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   font-size: 20px;
   font-weight: $w500;
 }
@@ -129,7 +130,7 @@
   }
 }
 
-.plan-3__scheme-item_1 {
+.plan-3__scheme-item {
   &:hover {
     .plan-3__tooltip {
       display: block;
@@ -137,6 +138,54 @@
       z-index: 99999;
       top: -234px;
       left: 91px;
+    }
+  }
+}
+
+
+@media (min-width: 1920px) {
+  .plan-1__wrap {
+    margin-bottom: 100px;
+  }
+  .plan-3__scheme {
+    text-align: center;
+  }
+  .plan-3__scheme-item {
+    &_1 {
+      left: 358px;
+    }
+    &_2 {
+      left: 519px;
+    }
+    &_3 {
+      left: 589px;
+    }
+    &_4 {
+      left: 769px;
+    }
+    &_5 {
+      left: 893px;
+    }
+    &_6 {
+      left: 1043px;
+    }
+    &_7 {
+      left: 1174px;
+    }
+    &_bottom {
+      &::after {
+        display: none;
+      }
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border: 1px solid $green;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+        background: $white;
+      }
     }
   }
 }

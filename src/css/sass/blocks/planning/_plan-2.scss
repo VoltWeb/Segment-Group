@@ -15,6 +15,7 @@
 
 .plan-2__wrap-title {
   margin-bottom: 0;
+  line-height: 1.2;
 }
 
 .plan-2__views {
@@ -25,7 +26,7 @@
 }
 
 .plan-2__item {
-  max-width: 130px;
+  width: 15%;
   margin-right: 170px;
   margin-bottom: 90px;
   text-align: center;
@@ -41,9 +42,19 @@
 }
 
 .plan-2__item-text {
+  position: relative;
   padding-top: 15px;
   font-size: 14px;
-  border-top: 1px solid #c4c4c4;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 167px;
+    height: 1px;
+    background: #c4c4c4;
+  }
 }
 
 .plan-2__btn {
@@ -54,4 +65,10 @@
   background: transparent;
   border: 4px solid $green;
   text-transform: $up;
+}
+
+@media (min-width: 1200px) and (max-width: 1365px) {
+  .plan-2__wrap {
+    width: 920px;
+  }
 }

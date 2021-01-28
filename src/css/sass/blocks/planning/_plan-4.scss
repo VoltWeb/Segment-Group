@@ -12,19 +12,36 @@
 }
 
 .plan-4__item {
-  max-width: 220px;
+  width: 22%;
   margin-right: 35px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
 }
 
 .plan-4__item-title {
+  position: relative;
   margin-bottom: 10px;
   padding-bottom: 10px;
   font-size: 36px;
   color: $green;
-  border-bottom: 1px solid #c4c4c4;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 220px;
+    height: 1px;
+    background: #c4c4c4;
+    transform: translateX(-50%);
+  }
 }
 
 .plan-4__item-text {
+  text-align: center;
+}
+
+@media (min-width: 1200px) and (max-width: 1365px) {
 
 }

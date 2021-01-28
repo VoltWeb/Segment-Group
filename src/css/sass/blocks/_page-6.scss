@@ -1,0 +1,43 @@
+.page-6__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 230px;
+}
+
+.page-6__item {
+  width: 170px;
+  position: relative;
+  background: radial-gradient(50% 50% at 50% 50%, #4E5152 0%, #1E2324 100%);
+}
+
+.page-6__descr {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: $white;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.page-6__name {
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.page-6__text {
+  font-size: 11px;
+}
+
+.page-6__item {
+  &:hover {
+    background: linear-gradient(180deg, rgba(53, 99, 47, 0.72) 0%, rgba(41, 65, 42, 0.47) 100%), radial-gradient(59.57% 59.57% at 45% 40.43%, #4E5152 0%, #1E2324 100%);
+    .page-6__descr {
+      opacity: 1;
+    }
+  }
+}
+
