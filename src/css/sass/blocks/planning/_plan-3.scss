@@ -1,0 +1,142 @@
+.plan-3 {
+  padding-top: 74px;
+  padding-left: 290px;
+}
+
+.plan-3__scheme {
+  position: relative;
+  padding-top: 120px;
+  padding-left: 60px;
+  &::after {
+    content: url("../img/icons/i-scheme.svg");
+  }
+}
+
+.plan-3__scheme-item {
+  position: absolute;
+  text-align: center;
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid $green;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    background: $white;
+  }
+  &:hover {
+    cursor: pointer;
+    &::after {
+      background: $green;
+    }
+    &::before {
+      background: $green;
+    }
+  }
+  &_1 {
+    top: 170px;
+    left: -13px;
+  }
+  &_2 {
+    top: 339px;
+    left: 147px;
+  }
+  &_3 {
+    top: 132px;
+    left: 216px;
+  }
+  &_4 {
+    top: 329px;
+    left: 399px;
+  }
+  &_5 {
+    top: 124px;
+    left: 521px;
+  }
+  &_6 {
+    top: 279px;
+    left: 671px;
+  }
+  &_7 {
+    top: 24px;
+    left: 801px;
+  }
+  &_bottom {
+    &::after {
+      display: none;
+    }
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      border: 1px solid $green;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+      background: $white;
+    }
+  }
+}
+
+.plan-3__scheme-item_flag {
+  &::before {
+    content: url("../img/icons/i-flag.svg");
+    position: absolute;
+    top: -60px;
+  }
+  &:hover {
+    &::before {
+      background: transparent;
+    }
+  }
+}
+
+
+.plan-3__scheme-title {
+  font-size: 20px;
+  font-weight: $w700;
+}
+
+.plan-3__scheme-text {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.plan-3__tooltip {
+  display: none;
+  position: absolute;
+  top: -58px;
+  left: 84px;
+  max-width: 550px;
+  padding: 25px;
+  background: $white;
+  border-radius: 5px;
+  box-shadow: 1px 4px 33px rgba(0,0,0,0.25);
+}
+
+.plan-3__tooltip-title {
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: $w500;
+}
+
+.plan-3__tooltip-text {
+  margin-bottom: 25px;
+  font-size: 14px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.plan-3__scheme-item_1 {
+  &:hover {
+    .plan-3__tooltip {
+      display: block;
+      width: 550px;
+      z-index: 99999;
+      top: -234px;
+      left: 91px;
+    }
+  }
+}

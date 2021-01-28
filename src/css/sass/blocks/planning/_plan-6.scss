@@ -1,0 +1,27 @@
+.plan-6 {
+  padding-top: 74px;
+  padding-left: 290px;
+}
+
+.plan-6__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.plan-6__item {
+  max-width: 220px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  &:nth-child(4) {
+    margin-right: 0;
+  }
+}
+
+.plan-6__item-pic {
+
+}
+
+.plan-6__item-img {
+
+}

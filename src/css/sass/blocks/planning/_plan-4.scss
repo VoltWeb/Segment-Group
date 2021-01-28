@@ -1,0 +1,30 @@
+.plan-4 {
+  padding-top: 74px;
+  padding-left: 290px;
+}
+
+.plan-4__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.plan-4__item {
+  max-width: 220px;
+  margin-right: 35px;
+  margin-bottom: 50px;
+}
+
+.plan-4__item-title {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 36px;
+  color: $green;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.plan-4__item-text {
+
+}
