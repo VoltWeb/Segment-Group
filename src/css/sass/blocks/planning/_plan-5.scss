@@ -10,6 +10,9 @@
 
 .plan-5__left {
   width: 49%;
+  max-height: 403px;
+  overflow-y: scroll;
+  margin-right: 10px;
 }
 
 .plan-5__left-title {
@@ -39,7 +42,9 @@
 
 }
 
-.plan-5__right-img {}
+.plan-5__right .plan-5__right-pic .plan-5__right-img {
+  width: auto;
+}
 
 @media (min-width: 1200px) and (max-width: 1365px) {
 

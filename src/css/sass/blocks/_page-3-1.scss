@@ -1,28 +1,26 @@
 .page-3-1 {
-
+  padding-top: 84px;
 }
 
 .page-3-1__wrap {
-  padding-top: 65px;
+
 }
 
 .page-3-1__title {
-  margin-bottom: 66px;
-  margin-left: 520px;
+  margin-bottom: 63px;
   color: #414141;
 }
 
 .page-3-1__block {
-  margin-bottom: 41px;
-  padding-left: 170px;
+  margin-bottom: 3px;
 }
 
 .page-3-1__link-block {
-
+  font-size: 32px;
 }
 
 .page-3-1__flex-block {
-  margin-left: 238px;
+  margin-left: 72px;
 }
 
 .page__3-1-row {
@@ -47,6 +45,14 @@
 
 @media (min-width: 1200px) and (max-width: 1368px) {
   .page-3-1__block {
-    padding-left: 260px;
+    padding-left: 0;
   }
+}
+
+@media(min-width: 1920px) {
+
+  .page-3-1__flex-block {
+    margin-bottom: 72px;
+  }
+
 }

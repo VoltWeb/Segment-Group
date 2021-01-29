@@ -1,21 +1,21 @@
 .page-5 {
-
+  padding-top: 83px;
+  padding-left: 250px;
 }
 
 .page-5__wrap {
-  padding-top: 65px;
-  text-align: center;
+
+
 }
 
 .page-5__title {
-  margin-left: 294px;
-  margin-bottom: 59px;
+  margin-bottom: 56px;
   color: #414141;
 }
 
 .page-5__block {
   display: flex;
-  margin-left: 190px;
+  margin-left: 59px;
 }
 
 .page-5__item:not(:last-child) {
@@ -23,10 +23,21 @@
 }
 
 .page-5__item-title {
-  display: inline-block;
-  margin-bottom: 38px;
+  position: relative;
+  margin-bottom: 35px;
   font-size: 25px;
-  border-bottom: 1px solid #C4C4C4;
+  text-align: center;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 375px;
+    height: 1px;
+    background: #c4c4c4;
+  }
+  /*border-bottom: 1px solid #C4C4C4;*/
 }
 
 .page-5__bold {
@@ -37,7 +48,7 @@
 
 .page-5__pic {
   display: block;
-  margin-bottom: 24px;
+  margin-bottom: 26px;
 }
 
 .page-5__map {
@@ -66,12 +77,22 @@
 
 @media (min-width: 1200px) and (max-width: 1368px) {
   .page-5__title {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
   .page-5__block {
-    margin-left: 210px;
+    justify-content: center;
+    margin-left: 0;
   }
   .page-5__item:not(:last-child) {
     margin-right: 30px;
   }
+}
+
+@media (min-width: 1920px) {
+
+  .page-5__block {
+    justify-content: center;
+    margin-left: 0;
+  }
+
 }

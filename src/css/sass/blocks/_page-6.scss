@@ -1,3 +1,13 @@
+.page-6 {
+  padding-top: 83px;
+  .page-4-1__wrap {
+    padding-left: 230px;
+  }
+  .page-4-1__block {
+    padding-left: 70px;
+  }
+}
+
 .page-6__wrap {
   display: flex;
   flex-wrap: wrap;
@@ -5,7 +15,6 @@
 }
 
 .page-6__item {
-  width: 170px;
   position: relative;
   background: radial-gradient(50% 50% at 50% 50%, #4E5152 0%, #1E2324 100%);
 }
@@ -34,10 +43,24 @@
 
 .page-6__item {
   &:hover {
+    transition: 0.3s;
+    overflow: hidden;
     background: linear-gradient(180deg, rgba(53, 99, 47, 0.72) 0%, rgba(41, 65, 42, 0.47) 100%), radial-gradient(59.57% 59.57% at 45% 40.43%, #4E5152 0%, #1E2324 100%);
     .page-6__descr {
       opacity: 1;
     }
+    .plan-5__right-img {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
   }
+}
+
+@media(min-width: 1920px) {
+
+  .page-6__item {
+    width: 9.9%;
+  }
+
 }
 

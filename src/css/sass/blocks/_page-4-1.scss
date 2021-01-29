@@ -1,30 +1,32 @@
 .page-4-1 {
-
+  padding-top: 83px;
 }
 
 .page-4-1__wrap {
-  padding-top: 65px;
+
 }
 
 .page-4-1__title {
   margin-bottom: 66px;
-  margin-left: 606px;
   color: #414141;
 }
 
 .page-4-1__block {
-  margin-left: 170px;
   margin-bottom: 12px;
 }
 
 .page-4-1__link-block {
-
+  display: inline-block;
+  font-size: 32px;
+  font-weight: $w500;
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 11px;
 }
 
 .page-4-1__flex {
   display: flex;
-  justify-content: space-between;
-  margin-left: 172px;
+
+  margin-bottom: 30px;
 }
 
 .vacancy__item {
@@ -38,6 +40,10 @@
   margin-right: 10px;
   &:last-child {
     margin-right: 0;
+  }
+  &:nth-child(2) {
+    transform: scale(1.1);
+    z-index: 999;
   }
 }
 
@@ -75,9 +81,9 @@
     margin-bottom: 5px;
   }
   .page-4-1__block {
-    margin-left: 225px;
+
   }
   .page-4-1__flex {
-    margin-left: 220px;
+
   }
 }

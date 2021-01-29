@@ -22,17 +22,6 @@ url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype");
 
 @font-face {
   font-family: "Helvetica Neue";
-  font-weight: 700;
-  font-style: normal;
-  font-display: auto;
-  src:  url("../fonts/HelveticaNeueCyr-Bold.eot"); src:  url("../fonts/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"),
-url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
-url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
-url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Helvetica Neue";
   font-weight: 500;
   font-style: normal;
   font-display: auto;
@@ -44,16 +33,16 @@ url("../fonts/HelveticaNeueCyr-Medium.ttf") format("truetype");
 
 @font-face {
   font-family: "Helvetica Neue";
-  font-weight: 900;
+  font-weight: 700;
   font-style: normal;
   font-display: auto;
-  src:  url("../fonts/helvetica_neue_63.eot"); src:  url("../fonts/helvetica_neue_63.eot?#iefix") format("embedded-opentype"),
-url("../fonts/helvetica_neue_63.woff2") format("woff2"),
-url("../fonts/helvetica_neue_63.woff") format("woff"),
-url("../fonts/helvetica_neue_63.ttf") format("truetype");
+  src:  url("../fonts/HelveticaNeueCyr-Bold.eot"); src:  url("../fonts/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"),
+url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
+url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
 }
 
-@font-face {
+/*@font-face {
   font-family: "Idealist";
   font-weight: 300;
   font-style: normal;
@@ -62,7 +51,7 @@ url("../fonts/helvetica_neue_63.ttf") format("truetype");
 url("../fonts/idealist_sans_light.woff2") format("woff2"),
 url("../fonts/idealist_sans_light.woff") format("woff"),
 url("../fonts/idealist_sans_light.ttf") format("truetype");
-}
+}*/
 
 @font-face {
   font-family: "Idealist";

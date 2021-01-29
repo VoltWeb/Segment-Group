@@ -1,53 +1,91 @@
 .page-3 {
   position: relative;
-  background: url("../img/icons/i-logo-big.svg") no-repeat 585px 183px;
+  padding-top: 152px;
+  padding-left: 255px;
+  background: url("../img/icons/i-logo-big.svg") no-repeat 589px 264px;
   .page_1__more {
 
   }
 }
 
-.page-3__wrap {
-  padding-top: 65px;
-  text-align: center;
-}
-
 .page-3__title {
   margin-bottom: 66px;
-  margin-left: 280px;
   color: #414141;
 }
 
 .page-3__block {
-  max-width: 990px;
-  margin-left: 170px;
-  margin-bottom: 94px;
-  text-align: left;
+  max-width: 1020px;
+  margin-bottom: 103px;
+  padding-left: 34px;
+  &_last {
+    margin-bottom: 144px;
+  }
 }
 
-.page-3__link-block {
+.page-3__block-title {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 13px;
   font-size: 32px;
   font-weight: $w500;
   color: $black;
   border-bottom: 1px solid #C4C4C4;
-  &:hover {
-    text-decoration: none;
-  }
 }
 
 .page-3__text {
+  margin-bottom: 7px;
   font-size: 20px;
 }
 
-.page_3__address {
+.navi {
   position: absolute;
-  left: 250px;
-  bottom: 47px;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.navi__number {
+  font-size: 22px;
+  font-weight: 700;
+  color: #A8A5A5;
+}
+
+.navi__number.active {
+  color: $green;
+}
+
+.navi__btn {
+  font-size: 25px;
+  background: transparent;
+  border: none;
+  color: #A8A5A5;
+  &:hover {
+    color: $green;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1368px) {
-  .page-3__block {
-    margin-left: 250px;
+
+  .page-3 {
+    padding-top: 80px;
   }
+
+  .page-3__block_last {
+    margin-bottom: 55px;
+  }
+
+}
+
+@media (min-width: 1920px) {
+
+  .page-3 {
+    background-position: 805px 264px;
+  }
+
+  .page-3__block_last {
+    margin-bottom: 203px;
+  }
+
 }
